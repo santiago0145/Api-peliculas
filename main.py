@@ -52,4 +52,4 @@ def formulario():
     usuariosregistrados.append({"nombres": nombres, "documento": documento, "correo": correo, "password": passwordd})
     return jsonify({"status": "Registro Exitoso"}), 200
     
-app.run(debug = True, port=5000)
+app.run()
